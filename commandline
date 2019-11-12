@@ -1,0 +1,18 @@
+
+C:\xampp\htdocs>mkdir mytest
+
+C:\xampp\htdocs>cd mytest
+
+C:\xampp\htdocs\mytest>composer --version
+Composer version 1.8.5 2019-04-09 17:46:47
+
+C:\xampp\htdocs\mytest>
+C:\xampp\htdocs\mytest>composer require --dev phpunit/phpunit ^6.5
+
+C:\xampp\htdocs\mytest>php -v
+PHP 7.2.5 (cli) (built: Apr 25 2018 02:39:21) ( ZTS MSVC15 (Visual C++ 2017) x86 )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+
+C:\xampp\htdocs\mytest>phpunit
+PHPUnit 3.7.21 by Sebastian Bergmann.
